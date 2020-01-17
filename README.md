@@ -3,7 +3,7 @@
 ## ✅ Features
 - Personality Test
 - Profile Explanation and details on communication model ► /play secret  💬 
-![Mock-Up](https://github.com/alextarchini/PCMTest/Images/ScreenShot.png)
+![Mock-Up](https://github.com/alextarchini/PCMTest/tree/master/Images/ScreenShot.png)
 
 ## 👉Styling:
 Graphic chart:
