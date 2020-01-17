@@ -12,11 +12,11 @@ Graphic chart:
 - typography: Sans
 
 ## 💻 Techno used
-- **Front only :** HTML, CSS, Javascript
+- **Front only :** HTML, CSS, Javascript (Great starter!)
 
-## 🔑 Personal Data about users is not stored: 
+## 🔑 Personal Data about users is not stored
     "no data": "no GDPR probs :-)"
 
-## 👍 To start: 
+## 👍 To start
 Simply click here: https://alextarchini.github.io/PCMTest .
 Enjoy!
