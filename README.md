@@ -7,8 +7,8 @@
 
 ## 👉Styling:
 Graphic chart:
- - color chart:  #bootstrap green success(#5cb85c), bootstrap blue primary action (#0275d8), black-grayish(#333), white(#fff);
- ![Graphic Chart](https://github.com/alextarchini/npProject/blob/master/colorChart.png)
+ - color chart:   # tile green #bootstrap red danger(#5cb85c),  black-grayish(#333), white(#fff);
+ ![Graphic Chart](https://github.com/alextarchini/PCMTest/blob/master/Images/ScreenShot.png)
 - typography: Sans
 
 ## 💻 Techno used
