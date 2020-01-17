@@ -1,0 +1,66 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>PCM Personality Test</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <div style="text-align: center;">
+      <input
+        type="button"
+        class="profileBtn"
+        onclick="window.location.href = './index.html';"
+        value="Home"
+        style="margin-top: 2rem;"
+      />
+    </div>
+
+    <div class="quiz-container">
+      <div class="title">PCM Personality Test</div>
+      <div id="question" class="question"></div>
+      <label class="option">
+        <input type="radio" name="option" />
+        <span class="option1"></span>
+      </label>
+      <label class="option">
+        <input type="radio" name="option" />
+        <span class="option2"></span>
+      </label>
+      <label class="option">
+        <input type="radio" name="option" />
+        <span class="option3"></span>
+      </label>
+      <label class="option">
+        <input type="radio" name="option" />
+        <span class="option4"></span>
+      </label>
+      <label class="option">
+        <input type="radio" name="option" />
+        <span class="option5"></span>
+      </label>
+      <label class="option">
+        <input type="radio" name="option" />
+        <span class="option6"></span>
+      </label>
+      <!-- Buttons -->
+      <div class="controls">
+        <button class="previous">Previous</button>
+        <button class="next">Next</button>
+      </div>
+    </div>
+
+    <div class="result"></div>
+
+    <p style="text-align: center;">&#x24B8; PCM</p>
+
+    <script src="questions.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
