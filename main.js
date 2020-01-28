@@ -201,7 +201,7 @@ function loadNextQuestion() {
       console.log(ProfilesFn[i].type); // Ordering
       result.innerHTML += `
 
-            <p>${ProfilesFn[i].type}: ${ProfilesFn[i].number}  %</p>
+            <p>${ProfilesFn[i].type}: ${ProfilesFn[i].number}  %  <progress max="100" value="${ProfilesFn[i].number}"></progress></p> 
           
         </div>
     `;
@@ -244,3 +244,4 @@ previousButton.addEventListener("click", loadPreviousQuestion);
 result.addEventListener("click", restartQuiz);
 
 console.log(score);
+
