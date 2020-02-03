@@ -149,7 +149,7 @@ function loadNextQuestion() {
   /* Order sort */
 
   ProfilesFn.sort(function(a, b) {
-    return b.number - a.number;
+    return a.number - b.number;
   });
 
   for (var i in ProfilesFn) {
@@ -189,7 +189,7 @@ function loadNextQuestion() {
   if (currentQuestion == totalQuestions) {
     container.style.display = "none";
 
-    result.innerHTML = `<h1 class="final-score">Your Personality Type is: ${maxFn.type} </h1>
+    result.innerHTML = `<h1 class="final-score">Your Personality Type is: <a href="./profiles.html" style="color: #259191"> ${maxFn.type} </a> </h1>
     
     <div class="summary">
     <h1>Summary</h1>
@@ -244,4 +244,3 @@ previousButton.addEventListener("click", loadPreviousQuestion);
 result.addEventListener("click", restartQuiz);
 
 console.log(score);
-
